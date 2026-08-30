@@ -44,7 +44,7 @@
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/osint-tool.git
+git clone https://github.com/amoakojampah/OSINT-Phone-Intelligence-Tool
 cd osint-tool
 
 # Set up virtual environment (Recommended)
