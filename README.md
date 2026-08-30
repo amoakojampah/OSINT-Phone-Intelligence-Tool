@@ -75,11 +75,12 @@ exit
 ```
 ---
 ## 🎯 Use Cases
-     Security Research - Investigate unknown callers
-     Penetration Testing - Reconnaissance and intelligence gathering
-    - **Fraud Prevention - Verify phone numbers and emails
- **Background Checks - Validate contact information
- **OSINT Investigations - Open source intelligence gathering
+
+- **Security Research - Investigate unknown callers
+- ** Penetration Testing - Reconnaissance and intelligence gathering
+- **Fraud Prevention - Verify phone numbers and emails
+- **Background Checks - Validate contact information
+- **OSINT Investigations - Open source intelligence gathering
  ---
 ## ⚠️ Disclaimer
 This tool is for educational and legitimate security research purposes only. Users are responsible for complying with all applicable laws and regulations. Unauthorized use of this tool against systems without permission is illegal.
