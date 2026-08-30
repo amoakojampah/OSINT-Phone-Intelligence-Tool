@@ -42,12 +42,11 @@
 
 ### Installation
 
-```bash
-# Clone the repository
+# Clone your repository
 git clone https://github.com/amoakojampah/OSINT-Phone-Intelligence-Tool
-cd osint-tool
+cd OSINT-Phone-Intelligence-Tool
 
-# Set up virtual environment (Recommended)
+# Set up virtual environment
 python3 -m venv osint_env
 source osint_env/bin/activate
 
@@ -55,4 +54,28 @@ source osint_env/bin/activate
 pip install -r requirements.txt
 
 # Make executable
-chmod +x osint_tool.py
+chmod +x OSINT-Phone-Intelligence-Tool.py
+
+###💡 Simple Usage Examples
+# Deep phone number search (Ghana number example)
+./OSINT-Phone-Intelligence-Tool.py -t +233593332092
+
+# Domain investigation
+./OSINT-Phone-Intelligence-Tool.py -t example.com
+
+# Email analysis
+./OSINT-Phone-Intelligence-Tool.py -t user@example.com
+
+# Save results to a JSON file
+./OSINT-Phone-Intelligence-Tool.py -t +233593332092 --output results.json
+
+###🎯 Use Cases
+    # Security Research - Investigate unknown callers
+
+  #Penetration Testing - Reconnaissance and intelligence gathering
+
+  #  Fraud Prevention - Verify phone numbers and emails
+
+  #  Background Checks - Validate contact information
+
+   # OSINT Investigations - Open source intelligence gathering
