@@ -43,39 +43,38 @@
 ### Installation
 
 # Clone your repository
-git clone https://github.com/amoakojampah/OSINT-Phone-Intelligence-Tool
-cd OSINT-Phone-Intelligence-Tool
+**git clone https://github.com/amoakojampah/OSINT-Phone-Intelligence-Tool
+**cd OSINT-Phone-Intelligence-Tool
 
 # Set up virtual environment
-python3 -m venv osint_env
-source osint_env/bin/activate
+**python3 -m venv osint_env
+**source osint_env/bin/activate
 
 # Install dependencies
-pip install -r requirements.txt
+*pip install -r requirements.txt
 
 # Make executable
-chmod +x OSINT-Phone-Intelligence-Tool.py
+*chmod +x OSINT-Phone-Intelligence-Tool.py
 
 ###💡 Simple Usage Examples
 # Deep phone number search (Ghana number example)
-./OSINT-Phone-Intelligence-Tool.py -t +233593332092
+**./OSINT-Phone-Intelligence-Tool.py -t +233593332092
 
 # Domain investigation
-./OSINT-Phone-Intelligence-Tool.py -t example.com
+**./OSINT-Phone-Intelligence-Tool.py -t example.com
 
 # Email analysis
-./OSINT-Phone-Intelligence-Tool.py -t user@example.com
+**./OSINT-Phone-Intelligence-Tool.py -t user@example.com
 
 # Save results to a JSON file
-./OSINT-Phone-Intelligence-Tool.py -t +233593332092 --output results.json
+**./OSINT-Phone-Intelligence-Tool.py -t +233593332092 --output results.json
 
 ###🎯 Use Cases
-    # Security Research - Investigate unknown callers
-
-  #Penetration Testing - Reconnaissance and intelligence gathering
-
-  #  Fraud Prevention - Verify phone numbers and emails
-
-  #  Background Checks - Validate contact information
-
-   # OSINT Investigations - Open source intelligence gathering
+    **Security Research - Investigate unknown callers
+    **Penetration Testing - Reconnaissance and intelligence gathering
+    **Fraud Prevention - Verify phone numbers and emails
+    **Background Checks - Validate contact information
+    **OSINT Investigations - Open source intelligence gathering
+    
+###⚠️ Disclaimer
+**This tool is for educational and legitimate security research purposes only. Users are responsible for complying with all applicable laws and regulations. Unauthorized use of this tool against systems without permission is illegal.
